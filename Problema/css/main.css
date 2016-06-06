@@ -1,0 +1,22 @@
+body{
+	background-image: url(https://67.media.tumblr.com/ae379c7273ef8981201daf174941c3e4/tumblr_o7jk5l7P781v4u9a3o1_540.gif);
+	background-repeat: no-repeat;
+	background-size: 125%;
+}
+button{
+	background-color: #FFBF00;
+	width: 10em;
+} 
+.form-control{
+	width: 30em;
+}
+.azul{
+	background-color: #0404B4;
+	width: 15em;
+}
+.mt-3{
+	margin-top: 3em;
+}
+.mt-1{
+	margin-top: 5px;
+}

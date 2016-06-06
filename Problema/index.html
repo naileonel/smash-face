@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Smash Faces</title>
+	  <link rel="stylesheet" href="css/main.css">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	  <link rel="stylesheet" href="css/main.css">
+	  <link rel= "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	</head>
+	<body>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class= "col-md-7 col-xs-7 mt-3">
+						<h1 class="text-center"><font color="#2E2EFE">SMASH FACES</font></h1>
+						<p class="text-center"><font color="#2E2EFE">Bienvenida al juego de Smash Fces, tu mision es poder identificar a todas tus compañeras de clase ingresando para ellos su nombre. Tienes 5 oportunidades de perder 1 punto y pasar a la siguien.</font></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-7 col-xs-7 mt-3">
+						<div class="dropdown">
+							<h3><font color="#2E2EFE">Elige tu sede:</font>
+								<button id="dLabel" type="button" data-toggle="dropdown" 	 	aria-haspopup="true" aria-expanded="false">Lima
+	    						<span class="caret"></span>
+	  						</button>
+	  					</h3>
+	  					<ul class="dropdown-menu" aria-labelledby="dLabel">
+							  <li><a href="#">Peru</a></li>
+							  <li><a href="#">Mexico</a></li>
+						    <li><a href="#">Chile</a></li>
+						    <li role="separator" class="divider"></li>
+						    <li><a href="#"></a></li>
+	  					</ul>
+						</div>
+					</div>
+					<div class="col-md-5 col-xs-5 mt-3">
+						<center>
+							<h3><font color="#2E2EFE">Puntos: 0 puntos</font></h3>
+						</center>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-5 col-xs-5 mt-3" id="contenedorJuego">
+						<img src="fotos/Alma.jpg " width="100%" id="imagenPersona">
+					</div>
+					<div class="col-md-7 col-xs-7 mt-3">
+						<center>
+							<form class="navbar-form navbar-left" role="search">
+		        		<div class="form-group">
+		          		<input type="text" class="form-control" placeholder="Nombre" id="inputNombre">
+		       			</div>
+		       		</form>
+		        	<button class="btn btn-default azul mt-1"  id="btnRevisar"><font color="white">Comprobar</font></button>
+		        </center>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-xs-12">
+						<div id="contendorFinal">
+ 							<h1 id="headResult" class="text-center  mt-3"><font color="#2E2EFE">Final</font></h1>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+		</section>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
